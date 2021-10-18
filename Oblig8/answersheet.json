@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "title": "Hva er optimale testdekningen for tester med god kvalitet?",
+            "answers": [
+              { "answere": "85-90%" },
+              {
+                "answere": "50%"
+              },
+              {
+                "answere": "100%"
+              },
+              {
+                "answere": "Kvaliteten på tester avhenger ikke nødvendigvis av en viss testdekning",
+                "correct": true
+              }
+            ],
+            "helper": {
+              "text": "Les Når har du testet godt nok? og tenk selv om hva som tilsies god testing"
+            }
+          },
+    
+          {
+            "title": "Hvilken av disse er riktig ved asynkron testing av Promises(Med tanke på oppsett)",
+            "answers": [
+              { "answere": "await expect(promise).resolves.toBe(1)" ,
+              "correct": true
+              },
+              {
+                "answere": "expect(promise).toBe(1)"
+              },
+              {
+                "answere": "await expect(promise).toBe(1)"
+              },
+              {
+                "answere": "expect(promise).resolves.toBe(1)"
+              }
+            ],
+            "helper": {
+              "text": "Les om asynkron testing. Man vil finne resultatet ikke hva det er."
+            }
+          },
+    
+          {
+            "title": "Hvilken av disse testing metodene er raskest og billigst?",
+            "answers": [
+              { "answere": "Unit tester",
+                "correct": true},
+              {
+                "answere": "Manuelle tester"
+              },
+              {
+                "answere": "Integrasjons tester"
+              },
+              {
+                "answere": "UI tester"
+              }
+            ],
+            "helper": {
+              "text": "Vil ha et spesifikt svar selvom et eller to kan halveis riktig, tenk over selve ordet i svarene og hva det betyr så vil det kanskje være lett."
+            }
+          },
+    
+          {
+            "title": "Hvilken av disse hjelper oss ikke i å erstatte ekte implementasjon for raskere testing?",
+            "answers": [
+              { "answere": "Mocks" },
+              {
+                "answere": "Fakes"
+              },
+              {
+                "answere": "Spies"
+              },
+              {
+                "answere": "Fabricate",
+                "correct": true
+              }
+            ],
+            "helper": {
+              "text": "Noe man gjør når man lager en løgn."
+            }
+          }
+      ]
+}
